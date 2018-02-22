@@ -1,0 +1,76 @@
+body{
+    margin: 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    font-size: 150px;
+}
+header{
+font-size: 25px;
+color: rgb(236, 161, 186);
+background-color: black;
+display:flex;
+
+
+}
+
+header h1{
+    
+    height: 200px;
+
+}
+
+.banner img{
+  width:100%
+
+}
+.banner img{
+    width: 100;
+
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtos div{
+    width: 30%;
+}
+
+.produtos div img{
+    width: 100%;
+}
+
+.produtos div p{
+    margin: 0;
+}
+
+.produtos div .titulo{
+    font-size: 26px;
+}
+
+@media(max-width: 600px){
+    header h1{
+        margin: 26px;
+        font-size: 34px;
+    }
+    .banner{
+    width: 100%;
+    }
+
+    .produtos{
+        display: block;
+    }
+
+    .produtos div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+
